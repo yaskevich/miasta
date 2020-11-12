@@ -1,0 +1,27 @@
+/* @font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/material-design-icons/Material-Design-Icons.eot");
+  src: local('Material Icons'),
+       local('Material-Design-Icons'),
+	   url("../fonts/material-design-icons/Material-Design-Icons.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/material-design-icons/Material-Design-Icons.woff2") format('woff2'),
+       url("../fonts/material-design-icons/Material-Design-Icons.woff") format('woff'),
+       url("../fonts/material-design-icons/Material-Design-Icons.ttf") format('truetype');
+} 
+ */
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(../fonts/iconfont/MaterialIcons-Regular.woff2) format('woff2'),
+       url(../fonts/iconfont/MaterialIcons-Regular.woff) format('woff'),
+       url(../fonts/iconfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+

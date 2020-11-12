@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="https://" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <title>Miasta Polski</title>
+    <link rel="stylesheet" href="spectre.min.css" />
+    <link rel="stylesheet" href="docs.css" />
+    <script src="jquery.js">
+    </script>
+    <script src="leaflet.js">
+    </script>
+    <script src="polska.js">
+    </script>
+    <link rel="stylesheet" href="leaflet.css"/>
+  </head>
+  <body>
+    <section id="overview" class="grid-hero container grid-960 text-left">
+      <h1>Miasta Polski
+      </h1>
+      <span class="label label-warning">Strona pokazuje najwięcej 50 pierwszych wyników.
+      </span>
+      <div class="columns">            
+        <div class="column col-4">
+          <input class="form-input" type="text" id="inpname" placeholder="Cała nazwa lub część..." />
+        </div>
+        <div class="column col-4">
+          <a href="#" class="btn btn-primary proc">Szukaj
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="container grid-960">
+      <div class="columns">
+        <div class="docs-content column col-9 col-sm-12">
+          <div id="mapid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-gray">
+      <section id="copyright" class="grid-footer container grid-960">
+        <p>
+          © 2017, <b>«Miasta Polski»</b>: 
+          <a href="https://yaskevich.com/" target="_blank">Alyaxey Yaskevich</a> alyaxey.yaskevich@gmail.com
+        </p> 
+      <p>
+        © Zródło danych: projekt <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>.
+      </p>
+      </section>
+    </footer>
+  </body>
+</html>

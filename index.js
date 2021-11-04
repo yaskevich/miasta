@@ -19,7 +19,7 @@ const LIM = 50; // hardcoded limit for quantity of output to avoid bloating up a
 (async () => {
     const db = await open({ filename: path.join(__dirname, 'polska.db'), driver: sqlite3.cached.Database })
 	const app = express();
-	const port = process.env.PORT || 3010;
+	const port = process.env.PORT || 8080;
 	const index = fs.readFileSync(path.join(__dirname, 'public', 'index.html'), {encoding:'utf8', flag:'r'}); 
 	
 	app.use(bodyParser.json());
